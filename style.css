@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&family=Karla:wght@700&family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: hsl(257, 40%, 49%);
+  background-image: url("images/bg-desktop.svg");
+  padding: 20px;
+}
+
+.content {
+  display: flex;
+  margin-top: 50px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.right-content > h1 {
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+.right-content > p {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+}
+
+.reg {
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  border: 0px;
+  background-color: white;
+  color: hsl(300, 69%, 71%);
+  cursor: pointer;
+}
+
+.reg:hover {
+  background-color: hsl(300, 69%, 71%);
+  color: white;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer > i {
+  margin: 15px;
+  cursor: pointer;
+}
+
+footer > i:hover {
+  color: hsl(300, 69%, 71%);
+}
+
+@media (max-width: 375px) {
+  .ill {
+    width: 250px;
+  }
+
+  .right-content {
+    text-align: center;
+  }
+
+  footer {
+    justify-content: center;
+  }
+}
